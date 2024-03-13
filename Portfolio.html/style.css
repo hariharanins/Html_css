@@ -1,0 +1,624 @@
+.me{
+    background-color: black;
+    width: 650px;
+    height: 900px;
+    border: 4px solid black;
+    padding-left: 650px;
+    padding-top: 100px;
+    position: relative;
+}
+.a{
+    margin-top: 100px;
+    border: 4px solid yellow;
+    border-radius: 500px;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    bottom: 550px;
+    color: aliceblue;
+    width: 1300px;
+    height: 60px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.nav h1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.nav ul{
+    display: flex;
+    bottom: 100px;
+    list-style: none;
+    
+}
+.nav ul li{
+    padding-right: 50px;
+    font-size: 20px;
+}
+.nav ul li:hover{
+    width: 140px;
+    height: 20px;
+    color: aqua;
+    padding-left: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b{
+    color: orangered
+    
+    ;
+    font-size: 80px;
+    bottom: 20px;
+    position: absolute;
+    padding-left: 40px;
+
+}
+.c{
+    color: white;
+    font-size: 40px;
+    bottom: 150px;
+    position: absolute;
+    padding-left: 40px;
+
+
+}
+.d{
+    color: white;
+    font-size: 20px;
+    bottom: 50px;
+    position: absolute;
+    padding-left: 40px;
+}
+.e{
+    color: orangered;
+}
+.f{
+    width: 1280px;
+    height: 40px;
+    color: red;
+    position: absolute;
+    bottom: -500px;
+    padding-left: 40px;
+    font-size: 50px;
+}
+.g{
+    position: absolute;
+    bottom: -1200px;
+    margin: 60px;
+    border: 4px solid yellow;
+    border-radius: 500px;
+    top: 1150px;
+    height: 600px;
+}
+.h{
+    position: absolute;
+    color: white;
+    bottom: -1000px;
+    width: 500px;
+    height: 200px;
+    margin-left: 750px;
+    animation: slideleft is ease forwards;
+    animation-delay: 1s;
+}
+
+.ball{
+    background-color: black;
+    width: 1500px;
+    height: 800px;
+    margin-top: 20px;
+}
+.bat{
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    border: 4px solid red;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
+}
+.bat h1{
+    margin-left: 250px;
+    font-size: 40px;
+}
+.bat li{
+    padding-top: 20px;
+    margin: 20px 0;
+    font-size: 30px;
+    margin-left: 30PX;
+    margin-right: 30PX;
+}
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0,0, 0.24);
+    transition: all  0.3s cubic-bezier(0.25,.8,.25,1);
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
+}
+.bar span{
+    height: 30px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.HTML{
+    width: 90%;
+    animation:HTML 8s;
+}
+.CSS{
+    width: 90%;
+    animation:CSS 8s;
+}
+.JAVASCRIPT{
+    width: 30%;
+    animation:JAVASCRIPT 8s;
+}
+.MYSQL{
+    width: 60%;
+    animation:MYSQL 8s;
+}
+.PYTHON{
+    width: 40%;
+    animation:PYTHON 8s;
+}
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes JAVASCRIPT{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:30% ;
+    }
+}
+@keyframes MYSQL{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes PYTHON{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    position: relative;
+    
+
+}
+.box .container{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box .container .svg{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box .container svg circle{
+    margin-left:100px ;
+    margin-top: 100px;
+    fill: none;
+    stroke-width: 10;
+    stroke: black;
+    transform: translate(5px,5px);
+    bottom: 50px;
+    
+    
+}
+.box .container svg circle:nth-child(1){
+    stroke-dasharray: 0;
+    stroke:#f3f3f3;
+}
+.box .container svg circle:nth-child(2){
+    stroke-dasharray: 400;
+    stroke: rgb(26, 245, 245);
+}
+.box .container .number{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    margin-left: 50px;
+}
+.text{
+    position: absolute;
+    margin-top: 180px;
+}
+
+.cat{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left:50px;
+    
+    position: relative;
+    
+
+}
+.box1 .container{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box1 .container .svg{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box1 .container svg circle{
+    margin-left:100px ;
+    margin-top: 100px;
+    fill: none;
+    stroke-width: 10;
+    stroke: rgb(26, 245, 245);
+    transform: translate(5px,5px);
+    bottom: 50px;
+    stroke-dasharray: 200;
+    
+    
+}
+.box1 .container svg circle:nth-child(1){
+    stroke-dasharray: 0;
+    stroke:#f3f3f3;
+}
+.box1.container svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke: rgb(26, 245, 245);
+}
+.box1 .container .number{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    margin-left: 50px;
+}
+.text{
+    position: absolute;
+    margin-top: 100px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    position: relative;
+    
+
+}
+.box2.container{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box2 .container .svg{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box2 .container svg circle{
+    margin-left:100px ;
+    margin-top: 100px;
+    fill: none;
+    stroke-width: 10;
+    stroke: black;
+    transform: translate(5px,5px);
+    bottom: 50px;
+    
+    
+}
+.box2 .container svg circle:nth-child(1){
+    stroke-dasharray: 0;
+    stroke:#f3f3f3;
+}
+.box2 .container svg circle:nth-child(2){
+    stroke-dasharray: 300;
+    stroke: rgb(26, 245, 245);
+}
+.box2 .container .number{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    margin-left: 50px;
+}
+.text{
+    position: absolute;
+    margin-top: 180px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+    
+    position: relative;
+    
+
+}
+.box3 .container{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box3 .container .svg{
+    margin-left:100px ;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box3 .container svg circle{
+    margin-left:100px ;
+    margin-top: 100px;
+    fill: none;
+    stroke-width: 10;
+    stroke: black;
+    transform: translate(5px,5px);
+    bottom: 50px;
+    
+    
+}
+.box3 .container svg circle:nth-child(1){
+    stroke-dasharray: 0;
+    stroke:#f3f3f3;
+}
+.box3 .container svg circle:nth-child(2){
+    stroke-dasharray: 300;
+    stroke: rgb(26, 245, 245);
+}
+.box3 .container .number{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    margin-left: 50px;
+}
+.text{
+    position: absolute;
+    margin-top: 180px;
+}
+.z{
+    margin-right: 300px;
+    bottom: 230px;
+    position: relative;
+}
+@keyframes slideleft{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+        }
+        100%{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+.travel{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    bottom: -3030px;
+    align-items: center;
+    margin-left: 50px;
+}
+.page{
+    width: 600px;
+    height: 500px;
+    border: 4px solid red;
+    position: relative;
+    background-color: black;
+    color: orangered;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.note{
+    position: absolute;
+    bottom:-3150px;
+    width: 500px;
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-left: 30px
+}
+.te{
+    width: 600px;
+    height: 500px;
+    border: 4px solid red;
+    position: relative;
+    background-color: black;
+    color: orangered;
+    margin-top: 10px;
+    margin-left: 650px;
+    bottom: 540px;
+    border-radius: 20px;
+
+}
+.temp{
+    position: absolute;
+    bottom:-3020px;
+    width: 500px;
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-left: 700px
+
+}
+.s{
+    position: absolute;
+    bottom:-3180px;
+    width: 500px;
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-left: 680px
+
+}
+.w{
+    position: absolute;
+    bottom:-4200px;
+    width: 500px;
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-left: 300px;
+
+}
+.w{
+    position: absolute;
+    bottom:-3940px;
+    width: 500px;
+    color:#f3f3f3 ;
+    font-size: 20px;
+    margin-left: 450px
+    
+}
+.za{
+    width: 600px;
+    height: 800px;
+    border: 4px solid red;
+    position: relative;
+    background-color: black;
+    color: orangered;
+    margin-top: 10px;
+    margin-left: 400px;
+    bottom: 500px;
+    border-radius: 20px;
+
+    
+}
+.mo{
+    position: absolute;
+    bottom:-4040px;
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    margin-left: 450px
+}
+.contact{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin-left: 400px;
+    background-color: skyblue;
+}
+.cv{
+    width: 500px;
+    height: 380px;
+    border: 2px solid red;
+    margin-left: 400px;
+}
+.ag{
+    background-color: black;
+}
+.hari{
+margin-left: 100px;
+padding: 10px;
+background-color: rgb(172, 172, 143);
+border-radius: 4px;
+margin-top: 20px;
+width: 250px;
+}
+.haran .hari{
+    height: 100px;
+}
+.contact1{
+    margin-left:140px;
+}
+.mini{
+    margin-left: 200px;
+    margin-top: 70px;
+    background-color: orangered;
+    width: 100px;
+    border-radius: 6px;
+    bottom: 40px;
+    position: relative;
+}
+.mini:hover{
+
+}
+.hari1{
+    margin-left:10px ;
+    font-size: 50px;
+    color: orangered;
+
+}
+.sri{
+    background-color: black;
+    bottom: 500px;
+    position: relative;
+}
+.cn{
+    margin-left: 500px;
+    color: orangered;
+}
+.work{
+    background-color: black;
+}
+.sr{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.mn{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 20px;
+}
